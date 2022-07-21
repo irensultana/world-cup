@@ -1,0 +1,182 @@
+:root {
+    --secondery-color: #ff0606;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+/*============== banner section =============*/
+section.bannerarea {
+    padding: 5% 10%;
+}
+.bannercol {
+    display: flex;background: black;
+    color: #fff;justify-content: center;
+    align-items: center;border-radius: 15px;
+}
+.bannercontent {
+    width: 50%;margin-left: 7%;
+}
+.bannercontent h1 {
+    font-size: 3rem;line-height: 1;
+}
+.bannercontent p {
+    font-size: 1rem;margin: 3% 0;
+}
+a.btn {
+    background-color: var(--secondery-color);padding: 20px 40px;
+    color: #fff;border-radius: 5px;display: inline-block;
+}
+i.fa-solid.fa-arrow-right {
+    margin-left: 8px;
+}
+.bannerimg {
+    width: 50%;
+}
+.bannerimg img {
+    width: 85%;
+}
+
+/*=============== match section ===================*/
+section#matche-section {
+    padding: 5% 10%;display: flex;
+}
+.other-one {
+    width: 200px;
+}
+
+section#matche-section ul {
+    background-color: rgb(0, 0, 0);display: inline-block;
+    list-style: none;padding: 10%; text-align: center;
+    height: 35vh;width: 180px;
+}
+section#matche-section ul li {
+    border: 2px;  border-radius: 8px;
+    background-color: #fff;
+    padding: 8%;margin: 4%;
+}
+section#matche-section ul li:hover {
+    border: none;
+    background: var(--secondery-color);
+}
+.other-one a {
+    color: rgb(0, 0, 0);
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    column-gap: 3%; width: 75%;row-gap: 3%;
+}
+.match {
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+}
+
+.match img {
+    border-radius: 5px;
+    height: 120px; width: 100%;
+}
+.content {
+    padding: 2% 7%;
+}
+
+.match button {
+    padding: 2% 4%;margin: 2% 0;
+}
+
+.match h4 {
+    font-size: 0.8rem;margin: 3% 0;
+    line-height: 1.2;font-weight: 400;
+}
+.icons {
+    font-size: 12px;
+}
+.icons i {
+    color:black;
+    margin: 0 3%;
+}
+.btn-sec {
+    margin: 9%;
+    visibility: hidden;
+}
+.match-btn {
+    background-color: var(--secondery-color);color:white;
+    padding: 15px 40px;text-align: left;
+    border-radius: 5px;
+}
+
+/*=============== footer sectionm  =================*/
+footer {
+    color:white;background-color: black;
+    text-align: center;
+    padding: 2% 9%;
+}
+hr {
+    height: 1px;border: 2px;
+    background-color: white;
+}
+footer .menu {
+    margin-top: 2%;
+}
+
+footer .menu li {
+    font-size: 8px;  margin: 3%;
+    display: inline;
+}
+.social-icon {
+    display: flex; align-items: center;
+    justify-content: center; list-style: none;
+}
+ul.social-icon li {
+    padding: 3% 2%;
+    font-size: 1.5rem;
+}
+ul.social-icon li a {
+    color:white;
+}
+/* blog page  */
+.blogs {
+    display: grid;
+    width: 75%; padding: 2% 2%;
+    column-gap: 3%;row-gap: 3%;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+}
+.blog {
+    border: 1px solid rgb(154, 152, 147);
+    border-radius: 5px;
+}
+.blog-img {
+    display: flex; margin-top: 15%; 
+    align-items: center; justify-content: center;
+}
+.blog-img span {
+    margin: 1%;
+}
+.blog img {
+    width: 40%;border-radius: 2px;
+}
+.blog .content {
+    padding: 0; text-align: center;
+    margin: 8% 0;
+}
+.blog h4 {
+    font-size: 20px; 
+}
+.blog .content p {
+    font-size: 12px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
